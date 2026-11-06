@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class ForEachLoops : MonoBehaviour
@@ -11,9 +9,9 @@ public class ForEachLoops : MonoBehaviour
     {
         string[] strings = new string[3];
 
-        string[0] = "first string";
-        string[1] = "second string";
-        string[2] = "third string";
+        strings[0] = "first string";
+        strings[1] = "second string";
+        strings[2] = "third string";
 
         foreach (string item in strings)
         {

@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class DoWhileLoops : MonoBehaviour
@@ -12,7 +10,7 @@ public class DoWhileLoops : MonoBehaviour
         bool shouldContinue = false;
 
         do
-        }
+        { 
         
             Debug.Log("Hello world!");
         }
